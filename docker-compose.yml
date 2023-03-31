@@ -1,0 +1,17 @@
+version: '3'
+services:
+  bike:
+    image: harish1808/rapidobike:A1
+    ports:
+      - "8000:80"
+     
+  auto:
+    image: harish1808/rapidoauto:A1
+    ports:
+      - "8001:80"
+
+  taxi:
+    image: harish1808/rapidotaxi:A1
+    ports:
+      - "8002:80"
+        
